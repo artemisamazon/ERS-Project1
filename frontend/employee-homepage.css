@@ -1,0 +1,66 @@
+/*
+    Employee Homepage styling
+*/
+
+body {    
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url('http://unsplash.it/1200x800') center content-box  no-repeat ;
+    background-size: cover;
+      background-image: linear-gradient(to bottom right,#5289a8,#d8d7a6);
+      opacity: .8; 
+      background-color: #cad4a5;
+      text-shadow: 0.5px 0.5px #030303;
+    
+  }
+#employee-homepage-grid-container {
+    display: grid; 
+    grid-template-columns: 3fr 3fr 3fr; 
+    grid-template-rows: 0.2fr 0.2fr 0.2fr;
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "nav nav nav "
+      "reimticket-display reimticket-display submit-form"
+      "reimticket-display reimticket-display submit-form"
+      "reimticket-display reimticket-display submit-form";
+    text-align: center;
+    
+}
+th {
+    background-color:#d9e9f1;
+    background-image: linear-gradient(to top right,#5289a8,#cad4a5);
+    Color:rgb(90, 62, 62);
+    box-shadow: 2px 2px 2px 3px #201030;
+    text-shadow: 2px 2px #bdbeb4;
+}
+ td {
+    width:150px;
+    text-align:center;
+    border:1px solid rgb(230, 226, 205);
+    padding:1px;
+    box-shadow: 2px 2px 2px 3px #302d33;
+    background-color: #eeedc0;
+    opacity: 1.5; 
+    text-shadow: 2px 2px #dbd8d8;
+    
+}
+
+#reimtickets {
+    grid-area: reimticket-display;
+    padding-top: 10px;
+}
+
+#reimticket-submit-form {
+    grid-area: submit-form;
+}
+
+#reimticket-submit-form div {
+    margin-top: 30px;
+    
+}
+
+nav {
+    grid-area: nav;
+}
+
