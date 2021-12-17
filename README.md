@@ -6,4 +6,21 @@ The ERS includes a users (either employees or finance managers) table and reimti
 
 Java in Spring Tool Suite along with SQL/Postgres in DBeaver was used to code the backend of the database. HTML, CSS, and JS, were used to provide the structuring, styling, and data manipulation on the frontend.  
 
-#Technologies Used:
+Technologies Used:
+JDBC, PostgreSQL, Java, JavaScript, HTML, and CSS
+
+Features
+* Log in and log out functionalities for Employee and Finance Manager
+* Approve of submitted reimbursement ticket.
+* Submission of Reimbursement ticket.
+
+To-do list:
+* password hashing
+* Sorting of tickets by ticket status
+* Update styling with CSS
+
+Getting Started
+
+
+
+
