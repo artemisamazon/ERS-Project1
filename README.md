@@ -20,7 +20,8 @@ To-do list:
 * Update styling with CSS
 
 Getting Started
-
-
-
-
+1. Open Terminal.
+2. Change the current working directory to the location where you want the cloned directory.
+3. Type git clone, and then paste the URL.
+      $ git clone https://github.com/artemisamazon/ERS-Project1.git
+4. Press enter to create local clone. 
